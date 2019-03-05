@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 define( 'RS_WCMM_URL', untrailingslashit(plugin_dir_url( __FILE__ )) );
 define( 'RS_WCMM_PATH', dirname(__FILE__) );
-define( 'RS_WCMM_VERSION', '1.1.0' );
+define( 'RS_WCMM_VERSION', '1.0.0' );
 
 add_action( 'plugins_loaded', 'rs_wcmm_init_plugin' );
 
